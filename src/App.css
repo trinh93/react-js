@@ -1,0 +1,127 @@
+
+ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+img {
+  width: 100%;
+  min-width: 100%;
+}
+.choicon {
+  display: inline-block;
+  margin: -3px 4px 0 0;
+  vertical-align: middle;
+}
+.choicon.icon-white {
+  background-image: url(/images/sprite.png);
+  background-position: -30px -323px;
+  width: 11px;
+  height: 18px;
+}
+header .top-promo {
+  background: #1d71ab;
+}
+header .top-promo .top-label {
+  font-size: 12px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 26px;
+    display: inline-block;
+    letter-spacing: .5px;
+    margin: 0 0 0 25px;
+    vertical-align: middle;
+}
+.choicon.icon-gift-card   {
+    background-image: url(/images/sprite.png);
+    background-position: -325px -112px;
+    width: 18px;
+    height: 18px;
+}
+.choicon.icon-plane-18 {
+  background-image: url(/images/sprite.png);
+  background-position: -325px -94px;
+  width: 18px;
+  height: 18px;
+}
+.choicon.icon-gotadi {
+  background-image: url(/images/sprite.png);
+  background-position: -325px -184px;
+  width: 18px;
+  height: 18px;
+}
+.choicon.icon-money_bag {
+  background-image: url(/images/sprite.png);
+  background-position: -325px -19px;
+  width: 18px;
+  height: 19px;
+}
+.header-form-container {
+  background: #189eff;
+}
+.search-wrap .flex {
+  float: left;
+  display: table-cell;
+  width: calc(100% - 144px);
+  max-width: none;
+}
+.search-wrap .flex input {
+  border-radius: 4px 0 0 4px;
+    height: 40px;
+    border: 0;
+    font-size: 13px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 100%;
+    padding: 0 10px;
+}
+.search-wrap button {
+  background: #edeef2;
+  height: 40px;
+  border: 0;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-weight: 500;
+  width: 108px;
+  float: left;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+.form-search {
+  margin-top: 12px;
+}
+.form-search .icon-search {
+    width: 14px;
+    height: 15px;
+    background-image: url(/images/sprite.png?v=1519811185440);
+    background-position: -180px -178px;
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
