@@ -4,6 +4,12 @@ ul li {
   padding: 0;
   margin: 0;
 }
+ul {
+  padding: 0;
+}
+a:hover {
+  text-decoration: none;
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -78,6 +84,7 @@ header .top-promo .top-label {
 }
 .header-form-container {
   background: #189eff;
+  margin-bottom: 13px;
 }
 .search-wrap .flex {
   float: left;
@@ -120,6 +127,85 @@ header .top-promo .top-label {
     display: inline-block;
     margin-right: 4px;
     vertical-align: middle;
+}
+.dropdown-menu-gnav {
+    width: 900px;
+    position: absolute;
+    left: 97%;
+    top: 0;
+    z-index: 9999;
+    background: #fff;
+    display: none;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 1px #eee;
+}
+.left-menu li:hover .dropdown-menu-gnav {
+  display: block;
+}
+.App .left-menu {
+  position: relative;
+}
+.col-md-3.navi-bar {
+  flex: 0 0 20.5%;
+  max-width: 20.5%;
+}
+.navi-bar .lv1-icon {
+  background-image: url(/images/sprite.png);
+  vertical-align: middle;
+  display: inline-block;
+}
+.navi-bar .icon-main {
+  background-position: -41px -323px;
+  width: 11px;
+  height: 18px;
+}
+.navi-bar .icon-main-tv {
+  background-position: -268px -128px;
+  width: 18px;
+  height: 14px;
+}
+.navi-bar .icon-main-headphone {
+  background-position: -161px -303px;
+  width: 16px;
+  height: 17px;
+}
+.navi-bar .icon-wrap {
+  width: 20px;
+  display: inline-block;
+} 
+.left-menu .gnav {
+  width: 244px;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 1px #eee;
+  font-size: 13px;
+} 
+.left-menu .gnav li {
+  padding-bottom: 13px;
+}
+.col-md-9.banner-right {
+  flex: 0 0 79.5%;
+  max-width: 79.5%;
+  padding-left: 0;
+  padding-right: 40px;
+  margin-bottom: 20px;
+}
+#home-banner .bn-deal {
+  padding: 0px;
+}
+.bn-deal .col-md-6 {
+  margin-bottom: -37px;
+}
+#home-banner .bn-left p {
+  margin-bottom: 0px;
+}
+.home-primary-banner img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
 }
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
