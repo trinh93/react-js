@@ -13,6 +13,7 @@ class Header extends Component {
                 <div className="container">
                     {/* <div className="row">
                         <div className="left col-md-3">
+<<<<<<< HEAD:src/components/Header.js
                             <Link to="/Navi" className="top-label"><i className="choicon icon-white"></i> Tiki App - Ưu đãi ngay trên tay</Link>
                         </div>
                         <div className="right col-md-9">
@@ -21,6 +22,16 @@ class Header extends Component {
                             <Link to="/Navi" className="top-label"><i className="choicon icon-plane-18"></i> Tiki Global - Mua hàng từ nước ngoài</Link>
                             <Link to="/Navi" className="top-label"><i className="choicon icon-gotadi"></i> Đặt vé máy bay online</Link>
                             <Link to="/Navi" className="top-label"><i className="choicon icon-money_bag"></i> Bán hàng cùng Tiki</Link>
+=======
+                            <a className="top-label"><i className="choicon icon-white"></i> Tiki App - Ưu đãi ngay trên tay</a>
+                        </div>
+                        <div className="right col-md-9">
+                            <a className="top-label"><i className="choicon icon-gift-card"></i> Phiếu quà tặng</a>
+                            <a className="top-label"><i className="choicon icon-fire"></i> Khuyến Mãi HOT</a>
+                            <a className="top-label"><i className="choicon icon-plane-18"></i> Tiki Global - Mua hàng từ nước ngoài</a>
+                            <a className="top-label"><i className="choicon icon-gotadi"></i> Đặt vé máy bay online</a>
+                            <a className="top-label" ><i className="choicon icon-money_bag"></i> Bán hàng cùng Tiki</a>
+>>>>>>> 932b42e5250844bbdb7bfd13a29a2b3f7f5855cd:my-app/src/components/Header.js
                         </div>
                     </div> */}
                 </div>
